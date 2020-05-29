@@ -22,5 +22,6 @@ let package = Package(
         .target(
             name: "Cabbage",
             dependencies: []),
-    ]
+    ],
+    swiftLanguageVersions: [.v4_2]
 )
